@@ -1,0 +1,93 @@
+*{
+    font-family: 'Concert One', cursive;
+}
+
+body{
+    margin: 0px;
+    background-color:#232038;
+}
+
+/*Cabeza de la página*/
+
+header{
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    background-color: #4b3e66;
+    color: white;
+}
+
+header h1{
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 35%;
+}
+
+.links-header{
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 0%;
+    margin-left: 0%;
+
+    
+}
+
+.links-header li{
+    margin: 0 auto;
+   
+}
+
+.links-header li a{
+    text-decoration: none;
+    color:white;
+}
+
+/*h1 del container*/
+
+#mensaje{
+    margin: 40px 0;
+    text-align: center;
+    color:white;
+}
+
+/*Campos del mensaje*/
+
+.formularioMensaje{
+    width: 80%;
+    margin: auto auto;
+}
+
+#campos{
+    display: flex;
+    margin: 20px auto 20px auto;
+}
+
+#campos input{
+    width: 90%;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#campos p{
+    color: white;
+    height: 22px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.formularioMensaje button{
+    position: absolute;
+    right: 10%;
+    height: 35px;
+    width: 10%;
+    background-color:#a985ca;
+    border: none;
+}
+
+.formularioMensaje button:hover{
+    background-color:#a281c2;
+    cursor: pointer;
+}

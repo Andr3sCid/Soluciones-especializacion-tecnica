@@ -1,0 +1,111 @@
+*{
+    font-family: 'Concert One', cursive;
+}
+
+body{
+    margin: 0px;
+    background-color:#232038;
+}
+
+/*Cabeza de la página*/
+
+header{
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    background-color: #4b3e66;
+    color: white;
+}
+
+header h1{
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 35%;
+}
+
+.links-header{
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.links-header li{
+    margin: 0 auto;
+}
+
+.links-header li a{
+    color:white;
+    text-decoration: none;
+}
+
+/*Cuerpo de la página*/
+
+
+.container{
+    width: 100%;
+}
+    /*Busqueda*/
+#formularioSubscripcion{
+    margin: 40px auto 60px auto;
+    width: 80%;
+    text-align: center;
+    height: 32px;
+}
+
+#formularioSubscripcion input{
+    width: 70%;
+    height: 40px;
+    padding: 0;
+}
+
+#formularioSubscripcion button{
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    height: 40px;
+    text-align: center;
+    background-color: #a985ca;;
+    border:none;
+}
+
+#formularioSubscripcion button:hover{
+    background-color:#a281c2;
+    cursor: pointer;
+}
+    /*Noticias*/
+
+
+.container-noticias{
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px auto 30px auto;
+    background-color: #806699;
+}
+
+.container section p{
+    font-size: 20px;
+    width:100%;
+}
+
+#titulo{
+    margin: 5px 5px 10px 5px;
+}
+
+#texto{
+    margin: -20px 5px 20px 5px;
+}
+
+/*Pie de la página*/
+
+footer {
+    text-align:center;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
